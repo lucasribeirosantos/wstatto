@@ -1,0 +1,62 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "italic-serif-display",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-11T01:28:16.283Z",
+        "reason": "Brief do Lucas pede serifada fina para títulos; itálico só nas palavras de acento, estética de estúdio de linhas finas"
+      },
+      {
+        "rule": "pulsing-dot",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-11T01:28:16.513Z",
+        "reason": "Ponto pulsante replica o .dot do site de referência behappy-sjdr que o Lucas pediu como modelo de animação"
+      },
+      {
+        "rule": "hero-eyebrow-chip",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-11T01:28:16.741Z",
+        "reason": "Kicker de localização é SEO local intencional (Divinópolis), não chip decorativo"
+      },
+      {
+        "rule": "undersized-ui-text",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-11T01:28:16.984Z",
+        "reason": "Falso positivo: '· Tattoo' é .62em do h1 (~36px no celular); medido no meio da animação de split"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-11T01:28:17.219Z",
+        "reason": "Falso positivo: seções têm padding var(--section) >= 88px; borda do faq__list é divisor intencional"
+      },
+      {
+        "rule": "tight-leading",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-11T02:31:49.124Z",
+        "reason": "Display statement (.statement) de 34 a 84px em serifada, estilo da LP de referência do Lucas; leading de display, não texto corrido"
+      }
+    ]
+  }
+}

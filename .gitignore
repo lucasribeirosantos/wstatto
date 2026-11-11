@@ -1,0 +1,5 @@
+node_modules/
+.impeccable/hook.cache.json
+.claude/
+_raw/
+*.log
