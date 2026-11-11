@@ -56,6 +56,15 @@
         ],
         "createdAt": "2026-11-11T02:31:49.124Z",
         "reason": "Display statement (.statement) de 34 a 84px em serifada, estilo da LP de referência do Lucas; leading de display, não texto corrido"
+      },
+      {
+        "rule": "all-caps-body",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-11T12:14:35.191Z",
+        "reason": "Frase de destaque do Sobre (.statement) em caixa alta condensada copia o 'Quem somos' da LP Be Happy; Lucas pediu o tipo condensado da LP"
       }
     ]
   }
